@@ -8,6 +8,7 @@ const { db } = require('./db/connection');
 const { Musician } = require('./models/index')
 const app = require('./src/app');
 const {seedMusician} = require("./seedData");
+const syncSeed = require("./seed.js")
 
 
 describe('./musicians endpoint', () => {

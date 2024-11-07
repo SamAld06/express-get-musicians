@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const { Musician } = require("../models/index")
 const { db } = require("../db/connection")
+const router = require("../routes/routes.js")
 app.use(express.json())
 app.use(express.urlencoded())
 
